@@ -49,8 +49,8 @@
                             "table": "directory",
                             "iterator": "id",
                             "path": "/v1/employees/{iterator}",
-                            "base": {
-                                "employee_id": "{iterator}"
+                            "processing_options": {
+                                "output_field": null
                             }
                         },
                         "maxPageCount": -1,
@@ -127,6 +127,9 @@
                         "call": {
                             "path": "/v1/employees/all/tables/jobInfo"
                         },
+                        "processing_options": {
+                            "output_field": null
+                        },
                         "query_parameters": {}
                     }
                 },
@@ -160,10 +163,6 @@
                         "page":"{page_number}",
                         "limit":999
                     }
-                },
-                "selector":{
-                    "mode":"objects",
-                    "parameter":"orgs"
                 }
             },
             "authentication": "basic_auth",
