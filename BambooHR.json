@@ -48,17 +48,16 @@
                             "mode": "iteration",
                             "table": "directory",
                             "iterator": "id",
-                            "path": "/v1/employees/{iterator}",
-                            "processing_options": {
-                                "output_field": null
-                            }
+                            "path": "/v1/employees/{iterator}"
+                        },
+                        "processing_options": {
+                            "output_field": null
                         },
                         "maxPageCount": -1,
                         "maxSessionCount": 10,
                         "query_parameters": {
                             "fields": "{employee_fields}"
                         }
-
                     }
                 },
                 "parameters":{},
