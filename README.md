@@ -1,23 +1,15 @@
-# NIM-Conn-System-REST-BambooHR
+# BambooHR
+<img src="https://github.com/Tools4ever-NIM/NIM-System-REST-BambooHR/assets/24281600/77e2ba66-c32f-45f6-9621-f32ba7d424a0" width="256px" />
 
-<p align="center">
-  <img src="assets/bamboohrLogo.png">
-</p>
-Source data from BambooHR via API
 
-## Table of contents
+## Data Tables
+- Directory
+- Employees
+- Jobs
 
-* [Introduction](#introduction)
-* [Prerequisites](#prerequisites)
 
-## Introduction
-
-This source connector leverages the BambooHR API to import employees into NIM
-
-## Prerequisites
-
-- API Key from BambooHR https://documentation.bamboohr.com/docs/getting-started
-
+## Actions
+N/A
 
 # NIM Docs
 The official NIM documentation can be found at: https://docs.nimsuite.com
